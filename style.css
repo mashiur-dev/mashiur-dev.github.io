@@ -35,7 +35,7 @@ h2 {
 }
 /****** Common Style ******/
 .section {
-	padding:80px;
+	padding: 40px 0;
 }
 
 /****** header ******/
@@ -138,6 +138,9 @@ h2 {
 	line-height: 20px;
 	color: #969696;
 }
+#footer-section .contact-text a {
+	font-weight: 600;
+}
 #footer-section .social-links {
 	list-style:none;
 	margin:0;
@@ -163,4 +166,54 @@ h2 {
 	background: #000;
 	margin: 0px auto;
 	margin-top: 40px;
+}
+
+/*Portfolio*/
+
+.my-works {
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 400;
+	border: 2px solid #413c40;
+	display: block;
+	width: 180px;
+	text-align: left;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+.single-portfolio img {
+  max-width: 100%;
+  border: 4px solid #413c40;
+}
+.portfolio-info {
+	background: #413c40;
+	padding: 5px 10px;
+	color: #fff;
+	height: 80px;
+}
+.portfolio-info h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.portfolio-info p {
+	font-size: 14px;
+	line-height: 16px;
+	width: 80%;
+}
+.portfolio-info a {
+	color: #fff;
+	border: 1px solid #2e9586;
+	margin: 10px 0;
+	display: block;
+	width: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 2px 8px;
+	float: right;
+	margin-top: -28px;
+}
+.portfolio-info a:hover {
+	border-color: #187568;
 }

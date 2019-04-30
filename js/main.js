@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-	jQuery('#bportfolio-view').embedBehance({
+/*	jQuery('#bportfolio-view').embedBehance({
 
 	  // behance API Key
 	  apiKey: 'HR1ZYYO258Jr4ckEDJbDz6nF1SLQIqYa',
@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
 	  userName: 'shoyebzz',
 
 	});
-
+*/
 
 /*	var api = "http://behance.net/v2/users/matiascorea",
 		apiId = "HR1ZYYO258Jr4ckEDJbDz6nF1SLQIqYa",
