@@ -34,7 +34,7 @@ h2 {
 
 }
 /****** Common Style ******/
-.section {
+section, .section {
 	padding: 40px 0;
 }
 
