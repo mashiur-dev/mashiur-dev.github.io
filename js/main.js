@@ -38,7 +38,7 @@ $("#contact-form").on("submit", function(event) {
  	}else{
  		respondDiv.addClass('hide');
  		errorDiv.removeClass('hide');
- 		errorDiv.text('Please give vlaid information');
+ 		errorDiv.text('Please give valid information');
  	}
     
 });
