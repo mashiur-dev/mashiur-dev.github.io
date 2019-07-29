@@ -217,3 +217,25 @@ section, .section {
 .portfolio-info a:hover {
 	border-color: #187568;
 }
+/*contact form*/
+#contact-form {
+	margin: 30px auto !important;
+	display: block;
+	max-width: 500px;
+}
+
+.mailResponds, .mailError {
+	display: inline-block;
+	padding: 7px 10px;
+	border: 1px solid #4cc84c;
+	margin-left: 10px;
+	color: #4cc84c;
+}
+.hide {
+	display: none;
+}
+
+.mailError {
+	border-color: #fb7171;
+	color: #fb7171;
+}

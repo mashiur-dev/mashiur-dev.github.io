@@ -230,6 +230,29 @@
               <img src="images/big-phone-icon.png" alt="" class="long-phone-icon">
               <h2 class="phone-numer"><a href="tel:8801721097644">+8801721-097644</a></h2>
               <h4 class="contact-text">Have any project or any question, don't forget to contact me @ <a href="mailto:mr.shoyeb21@gmail.com"> mr.shoyeb21@gmail.com</a></h4>
+
+              <form id="contact-form" class="needs-validation text-left" novalidate>
+                <div class="form-group">
+                  <label for="fName">Name</label>
+                  <input type="text" class="form-control" id="fName" placeholder="Your name" name="from_name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="fEmail1">Email</label>
+                  <input type="email" class="form-control" id="fEmail1" name="reply_to" placeholder="Your email" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="fMessage">Project</label>
+                  <textarea name="message_html" class="form-control" id="fMessage" placeholder="Project Description" required></textarea>
+                  <small id="emailHelp" class="form-text text-muted">Write your project details here.</small>
+                </div>
+                <button type="submit" class="btn btn-primary flot-right">Send</button>
+                <div class="mailResponds hide"></div>
+                <div class="mailError hide"></div>
+              </form>
+
+
               <ul class="social-links">
                 <li><a href="http://fb.me/mrahmanzz">Facebook</a></li>
                 <li><a href="http://github.com/shoyebzz/">Github</a></li>
