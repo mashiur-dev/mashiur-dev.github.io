@@ -1,3 +1,11 @@
+//preloader
+jQuery(window).on('load', function () {
+    $('.loader').fadeOut('slow',function(){
+    	$(this).remove();
+    });
+});
+
+
 jQuery(document).ready(function(){
 
 var getElement = $('.my-resume');
