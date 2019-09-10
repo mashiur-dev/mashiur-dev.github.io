@@ -265,6 +265,33 @@ section, .section {
 	border-color: #187568;
 }
 /*contact form*/
+.title-text {
+	margin-top: 20px !important;
+	margin-bottom: 50px !important;
+	position: relative;
+	z-index: 1;
+}
+.title-text h1 {
+	text-transform: uppercase;
+	color: #d5ecee;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 75%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.title-text h2 {
+	font-size: 32px;
+	line-height: 40px;
+	color: #413c40;
+}
+.title-text h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
 #contact-form {
 	margin: 30px auto !important;
 	display: block;
