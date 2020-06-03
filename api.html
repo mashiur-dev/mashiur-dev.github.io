@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whois API</title>
+</head>
+<body>
+
+    <div id="api-data"></div>
+
+    <a href="https://www.whoxy.com/"><img src="//whoxy.s3.amazonaws.com/x.png" alt="whois api"></a>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+
+            var jqxhr = $.getJSON( "http://api.whoxy.com/?key=e198eaf66cf8d7c5u9697bee4f560163b&whois=nikotei.com", function(data) {
+                console.log( "success" );
+                console.log(data);
+
+            })
+            .done(function() {
+                console.log( "second success" );
+            })
+            .fail(function() {
+                console.log( "error" );
+            })
+            .always(function() {
+                console.log( "complete" );
+            });
+
+
+        });
+    </script>
+</body>
+</html>
